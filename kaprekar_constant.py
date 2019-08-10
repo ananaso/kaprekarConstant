@@ -54,3 +54,6 @@ if __name__ == "__main__":
             if STARTING_NUMBER == KAPREKAR_CONSTANT:
                 print("Iterations:", STEP_COUNT, "\n")
                 break
+            if STARTING_NUMBER == 0:
+                print("Repdigits will always terminate at 0 after a single iteration\n")
+                break
